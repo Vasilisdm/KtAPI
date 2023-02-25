@@ -9,9 +9,9 @@ import io.ktor.server.application.*
 
 fun Application.configureRouting() {
     routing {
-        this.customerRouting()
-        this.listOfOrdersRoute()
-        this.getOrderRoute()
-        this.totalizeOrder()
+        customerRouting()
+        listOfOrdersRoute()
+        getOrderRoute()
+        totalizeOrder()
     }
 }
